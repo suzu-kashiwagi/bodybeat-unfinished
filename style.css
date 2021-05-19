@@ -1,0 +1,892 @@
+.header{
+    background-color:#545A63;
+    height:90px;
+}
+
+.header-logo{
+    color: ghostwhite;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    position: absolute;
+    top:25px;
+    left:70px;
+    z-index: 1;
+}
+
+.header-img{
+    height: 160px;
+    margin-top:10px;
+    margin-left: 10px;
+    position:absolute;
+    clear: left;
+    clip: rect(0px 80px 80px 0px);
+}
+
+.header-list{
+    float:right;
+}
+
+.h-list{
+    list-style:none;
+    color:ghostwhite;
+    float:left;
+    font-size: 15px;
+    padding: 23px 20px;
+}
+
+.top{
+    background-image: url(https://cdn.peraichi.com/userData/5b3c7ad4-572c-480d-83ce-2db40a0000fe/img/5d236c8796f93/original.jpeg);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+    height:600px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin:auto;
+}
+
+h1{
+    font-size: 80px;
+    color: #333F50;
+    padding-top: 100px;
+    text-shadow:2px 4px 0 #AFABAB;
+    font-family: "Arial Black",sans-serif;
+    font-weight: bold;
+    border-bottom:3px solid #000000;
+    width: 600px;
+    padding-bottom:15px ;
+}
+
+h2{
+    font-size:25px;
+    color:#333F50;
+    padding-top: 10px;
+    font-family: "Arial Black",sans-serif;
+    clear:left;
+}
+
+h3{
+    font-size: 35px;
+    color:#333F50 ;
+    font-family:"MS ゴシック",monospace;
+    border-bottom:13px solid #309AA2  ;
+    margin-bottom: 20px;
+    clear:left;
+}
+
+.八王子徒歩5分{
+    padding-top: 70px;
+    width:260px;
+}
+
+.業界最安値{
+    width:230px;
+}
+
+.業界初生涯サポート付き{
+    width:400px;
+}
+
+.top-img{
+    position:absolute;
+    top:185px;
+    left:70%;
+    height:17%;
+    filter:drop-shadow(5px 5px 0px #AFABAB)
+}
+
+.top-comment{
+    padding-top:30px;
+}
+
+.top-comment{
+    text-align: center;
+    font-size: 40px;
+    font-family: "游ゴシック";
+}
+
+.btn{
+    display: inline-block;
+    float:left;
+    width:30%;
+    height:50px;
+    font-family: "游ゴシック";
+    font-weight: 600;
+    text-align: center;
+    padding-top:20px;
+    box-shadow:10px 10px lightgray;
+    margin-bottom: 60px;
+}
+
+.a{
+    color: ivory;
+    font-size: 20px;
+    padding: 20px;
+    width: 30%;
+    font-family: "游ゴシック";
+    font-weight: 600;
+    box-shadow: 10px 10px lightgray;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 70px;
+}
+
+.a:active{
+    position: relative;
+    top:10px;
+    left: 10px;
+    box-shadow: none;
+}
+
+.instagram-button{
+    background-color: #CE9FE1;
+}
+
+.form-button{
+    background-color:#7DBDB1 ;
+    margin-left: 17%;
+    margin-right:5%;
+}
+
+.trainer{
+    background-color: #8497B0;
+    clear:left;
+}
+
+
+.top-triangle{
+    width: 0;
+    height: 0;
+    border-right: 210px solid transparent;
+    border-top: 350px solid white;
+    position:absolute;
+    margin-top:50px;
+}
+
+.parallelogram{
+    width: 55%;
+    height: 700px;
+    background:white;
+    transform: skewX(-30deg);
+    position:absolute;
+    box-shadow: 30px 30px 0 #ADB9CA;
+    margin-top:50px;
+    color: white;
+}
+
+.gold-text{
+    font-family: "MS ゴシック";
+    color:#BF9000;
+    font-weight: bold;
+    margin:0px;
+    font-size:60px;
+    position:relative;
+    text-shadow:2px 4px 0 #545A63;
+    text-align:left;
+    margin-left:600px;
+} 
+
+.text1{
+    padding-top:130px;
+}
+
+.gold-text-small{
+    font-size: 30px;
+    position:relative;
+    text-shadow:2px 2px 0 #545A63;
+}
+
+.text3{
+    padding-top:40px;
+}
+
+.blue-text{
+    font-size:35px;
+    font-weight:bold;
+    margin:0px 20px 0px 600px;
+    color:#333F50;
+    position:relative;
+    text-align:left;
+    font-family:"游ゴシック";
+}
+
+.number{
+    font-size:55px;
+}
+
+.show{
+    font-size:50px;
+}
+
+.説明{
+    font-size:19px;
+    text-align: left;
+    position: relative;
+    margin-left:750px;
+    padding-top:10px;
+    padding-bottom:80px;
+    font-family:"游ゴシック";
+}
+
+.contents{
+    border-bottom:3px solid #8497B0;
+    padding-top:80px;
+    width:350px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    color:#1F4E79;
+    text-shadow: 3px 3px 2px #c0cddf;
+}
+
+.料金説明{
+    font-size:40px;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom:0px;
+    font-family: "游ゴシック";
+    font-size:35px;
+}
+
+.コース{
+    font-size:50px;
+    border-bottom: 13px solid #E0CA85;
+}
+
+.short{
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/11/12/12/woman-4618189_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#aee6fa;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+
+.price-name{
+    text-shadow: 3px 2px 0px #7b818a;
+    font-family: "ＭＳ 明朝";
+    font-weight: bold;
+    color:white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.値段{
+    font-size: 90px;
+}
+.course-name{
+    text-shadow: 3px 2px 0px #7b818a;
+    font-family: "ＭＳ 明朝";
+    font-weight: bold;
+    color:white;
+    font-size: 45px;
+    padding-right:0px;
+    margin-bottom: 0px;
+}
+
+.light{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#a4f8e6;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-top:60px ;
+}
+
+.plus{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/02/23/29/woman-3057294_1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color:#f7ef84;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+}
+
+.expert{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/15/adult-1867743_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#DECCE5;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-bottom:70px ;
+}
+
+.契約{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "MS ゴシック";
+    text-align: center;
+    color: #3B3838;
+    
+}
+
+.入会金値段{
+    font-size: 70px;
+}
+
+.三角{
+    font-size: 60px;
+    color:#D0CECE;
+}
+
+.price-img{
+    height: 350px;
+    filter:invert(50%) drop-shadow(15px 12px 0px black);
+    margin-left:10%;
+    margin-top:20px;
+    float: left;
+}
+
+.契約説明{
+    transform: rotate(-10deg);
+    font-size: 50px;
+    font-family: "MS ゴシック";
+    color: #3B3838;
+    font-weight: bold;
+    width: 700px;
+    text-align: center;
+    padding-bottom:0px;
+    background:linear-gradient(180deg,white 0%,white 60%,#FFFF8A 40%,#FFFF8A 100%)
+}
+
+.無料説明{
+    margin-top:15px;
+    margin-bottom:180px;
+}
+
+.半額説明{
+    margin-bottom:0px;
+}
+
+.半額{
+    font-size: 70px;
+    color: #22BCA8;
+}
+
+.契約内容{
+    float: left;
+    margin-left:50px;
+}
+
+table{
+    font-size:20px;
+    border-collapse:collapse;
+    text-align: center;
+    margin:30px auto ;
+}
+
+table th,table td{
+    border:solid 2px white
+}
+
+table th{
+    background-color: #8497B0;
+    color: white;
+    font-size: 30px;
+}
+
+td{
+    font-family: "游ゴシック";
+    padding:10px 30px;
+    background-color: #F0F0F0;
+}
+
+.BodyBeat-name{
+    background-color: #FFC000;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding:10px;
+    text-shadow: 3px 3px 0px gray;
+    border-left: double 7px white;
+}
+
+.BodyBeat{
+    background-color: #FFF2CC;
+    border-left: double 7px white;
+}
+
+.t-list{
+    list-style:none;
+}
+
+.td-title{
+    background-color:#DAE3F3;
+}
+
+.main-comment{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/07/11/36/girl-1031308_1280.jpg);
+    background-size:cover;
+    background-position:bottom;
+    background-color:rgba(236, 228, 228, 0.151);
+    background-blend-mode:lighten;
+    
+}
+
+.mc-top{
+    font-size:40px;
+    color: white;
+    font-family: "游ゴシック";
+    font-weight: bold;
+    text-shadow: 3px 4px 3px #323232;
+    background: linear-gradient(transparent 85%, #309AA2 85%);
+    text-align: center;
+    padding-top: 130px;
+    margin: 100px 250px 80px 250px;
+}
+
+.mc-bottom{
+    font-size: 35px;
+    font-family:"游ゴシック";
+    color: white;
+    text-shadow: 3px 3px 3px #323232;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.保証{
+    width: 400px;
+}
+
+.guarantee-left{
+    background-color: #FFE699;
+    width: 43%;
+    margin-top:70px;
+    margin-left:5% ;
+    float:left ;
+    height: 940px;
+}
+
+.最低価格保証{
+    font-weight:bold;
+    font-family:"游ゴシック";
+    font-size:30px;
+    padding-top:80px;
+    padding-left:30px;
+}
+
+.最低価格{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E66D2A;
+    text-shadow:2px 2px 0px #F4B183;
+    font-size: 70px;
+    text-align: right;
+    padding-right: 100px;
+    margin-top:0px;
+}
+
+.乗り換え割で{
+    font-size: 30px;
+    font-family: "游ゴシック";
+    padding-left:35px;
+}
+
+.保証内容{
+    font-size: 40px;
+    font-family: "游ゴシック";
+    font-weight: bold;
+    text-shadow:2px 2px 0px #F4B183;
+    color: #E66D2A ;
+    text-align: center;
+    background: linear-gradient(transparent 65%, #FFFBF1 65%);
+}
+
+.キャンペーン{
+    width: 600px;
+    margin:0px 20px;
+}
+
+.さらに{
+    font-family:"游ゴシック";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.ウエスト{
+    width: 350px;
+    margin: 0px 140px;
+}
+
+.保証説明{
+    font-family: "游ゴシック";
+    font-size:25px;
+    margin: 60px 100px 0px 130px;
+    padding-bottom:63px;
+}
+
+.guarantee-right{
+    background-color: #D2F0F2;
+    margin-top: 70px;
+    float: right;
+    width: 43%;
+    margin-right: 5%;
+    height: 940px;
+}
+
+.不安{
+    font-weight:bold;
+    font-family:"游ゴシック";
+    font-size:30px;
+    padding-top:80px;
+    padding-left:70px;
+    margin-bottom: 0px;
+}
+
+.返金保証{
+    font-family:"游ゴシック";
+    color: #309AA2;
+    text-shadow:2px 2px 0px #C9C9C9;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 3px #767171;
+    width: 500px;
+    margin:0px 0px 80px 75px;
+    padding-bottom: 30px;
+}
+
+.返金保証コメント{
+    font-family:"游ゴシック";
+    font-size: 45px;
+    text-align: center;
+}
+
+.返金保証説明{
+    font-family: "游ゴシック";
+    font-size: 25px;
+    padding-left: 155px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.サービス内容{
+    clear: left;
+}
+
+.空間{
+    width: 75%;
+    height: 450px;
+    margin-top: 40px;
+    opacity: 0.4;
+}
+
+.内容名{
+    font-size: 60px;
+    color: #595959;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    font-weight: bold;
+    text-shadow: 3px 5px 0px #CACACA;
+    position: absolute;
+    z-index: 1;
+}
+
+.頭{
+    font-size: 75px;
+    color: #309AA2;
+}
+
+.個室{
+    padding-left: 500px;
+    padding-top: 330px;
+    position: absolute;
+    z-index: 1;
+}
+
+.アメニティ{
+    background-image: url(https://images.pexels.com/photos/2475878/pexels-photo-2475878.jpeg?cs=srgb&dl=pexels-li-sun-2475878.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 0 auto;
+    float: right;
+    opacity: 0.4;
+    padding: 230px 550px;
+}
+
+.アメニティ説明{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 100px;
+}
+
+.充実{
+    margin-top: 410px;
+    margin-left: 250px;
+}
+
+.飲{
+    background-image: url(https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?cs=srgb&dl=pexels-daria-shevtsova-1458671.jpg&fm=jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+.プロテイン説明{
+    font-size: 40px;
+    margin-top: 850px;
+    margin-left: 750px;
+}
+
+.無料提供{
+    margin-top: 920px;
+    margin-left:75%;
+}
+
+.親子{
+    background-image: url(https://images.pexels.com/photos/3875220/pexels-photo-3875220.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: right;
+}
+
+.親子連れ{
+    margin-top: 1400px;
+    margin-left: 150px;
+}
+
+.食事{
+    background-image: url(https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: left;
+}
+
+.食事説明{
+    font-size: 40px;
+    margin-top: 1830px;
+    margin-left: 750px;
+}
+
+.食事サポート{
+    margin-top: 1890px;
+    margin-left: 700px;
+}
+
+.ba-top{
+    width: 600px;
+    margin-top: 50px;
+    clear: left;
+}
+
+.ラインサポート{
+    background-color: #E8E8EA;
+    margin-top: 250px;
+}
+.phone{
+    position: absolute;
+    height: 650px;
+    padding-top: 50px;
+    padding-left: 100px;
+    background-color:#E8E8EA;
+    clip: rect(0px 530px 800px 0px);
+}
+
+.line-top-comment{
+    color: #309AA2;
+    position: relative;
+    padding-top: 100px;
+    font-weight: bold;
+    font-family:"Meiryo UI";
+    font-size: 50px;
+    padding-left: 600px;
+}
+
+.center-comment{
+    padding-left: 150px;
+}
+
+.bottom-comment{
+    padding-left: 350px;
+}
+
+.ラインサポート説明{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: "游ゴシック";
+    padding-left: 520px;
+}
+
+.line-bottom-comment{
+    position: relative;
+    text-align: right;
+    font-family: "Meiryo UI";
+    font-weight: bold;
+    color: #767171;
+    font-size: 50px;
+    padding-right:60px;
+    padding-bottom: 100px;
+}
+
+.line{
+    background-image: url(https://i2.wp.com/ai-catcher.com/wp-content/uploads/fukidashi_284-1.png?w=1000&ssl=1);
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    width: 250px;
+    color:#309AA2 ;
+    font-weight: bold;
+    margin-left: 60px;
+    transform: scaleX(-1);
+    margin-top: 120px;
+}
+
+.line-icon{
+    transform: scaleX(-1);
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 65px;
+}
+
+.入会{
+    width: 400px;
+}
+
+.入会までの流れ{
+    background-image: url(https://images.pexels.com/photos/3927387/pexels-photo-3927387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+}
+
+.contents-of-nagare{
+    font-size: 30px;
+    font-family:"游ゴシック";
+    font-weight: bold;
+    color: ivory;
+    background-color: #8497B0;
+    margin: 0px 100px 50px 100px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.空白上{
+    padding: 40px;
+    margin-top: 80px;
+}
+
+.空白下{
+    padding-top: 40px;
+}
+
+.comment-of-bottom{
+    clear: left;
+    font-family: "游ゴシック";
+    font-size: 40px;
+    text-align: center;
+    margin: 80px;
+}
+
+form{
+    font-family: "游ゴシック";
+    border: 4px solid #8497B0;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.form-top{
+    font-size: 30px;
+    font-weight: bold;
+    color: #203864;
+    border-bottom: 4px solid #8497B0;
+    text-align: center;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.p-form{
+    margin-left:25%;
+    font-size: 20px;
+    font-family: "游ゴシック";
+}
+
+.form-input{
+    padding: 10px 0px;
+    width: 400px;
+    text-align: center;
+    margin: 0px 30%;
+    font-family: "游ゴシック";
+    font-size: 20pxx
+}
+
+.性別女{
+    margin-left: 30%;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    font-family: "游ゴシック";
+    font-size: 15px;
+    margin:0px 30%;
+}
+
+.form-btn{
+    font-family: "游ゴシック";
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #8497B0;
+    box-shadow: 5px 5px lightgray;
+    margin: 20px 40%;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn:active{
+    position: relative;
+    top:5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+.bottom-btn{
+    width: 400px;
+    height: 80px;
+    font-size: 25px;
+    color: white;
+    font-family: "游ゴシック";
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 10px 10px lightgray;
+    padding: 10px;
+}
+
+.bottom-btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.line-btn{
+    background-color: #7DBDB1;
+    margin: 80px auto 50px 300px;
+    float: left;
+}
+
+.instagram-btn{
+    background-color: #D1A5E3;
+    margin: 80px auto 50px 80px;
+}
