@@ -140,13 +140,13 @@
 
 @media(max-width:1024px) {
     .parallelogram {
-        height: 680px;
+        height: 630px;
     }
 }
 
 @media(max-width:800px) {
     .parallelogram {
-        height: 600px;
+        height: 550px;
     }
 }
 
@@ -177,14 +177,14 @@
     }
 
     .parallelogram {
-        height: 290px;
+        height: 280px;
         box-shadow: 10px 10px 0 #ADB9CA;
     }
 }
 
 @media(max-width:320px) {
     .parallelogram {
-        height: 285px;
+        height: 270px;
     }
 }
 
@@ -213,7 +213,7 @@
 .text-blue {
     font-size: 35px;
     margin: 0px 20px 0px 600px;
-    color: #333F50;
+    color: #dbd961;
     position: relative;
     font-family: "游ゴシック";
 }
@@ -236,7 +236,18 @@
     font-family: "游ゴシック";
 }
 
+.kyohei-img{
+    padding-top: 5%;
+    width:27%;
+    margin-left: 5%;
+}
+
 @media(max-width:1024px) {
+    .kyohei-img{
+        padding-top: 10%;
+        width: 35%;
+    }
+
     .text-gold {
         margin-left: 400px;
     }
@@ -252,8 +263,13 @@
 }
 
 @media(max-width:800px) {
+    .kyohei-img{
+        padding-top:15%;
+        width: 38%;
+    }
+
     .text-gold {
-        margin-left: 260px;
+        margin-left: 280px;
         font-size: 40px;
     }
 
@@ -276,8 +292,12 @@
 }
 
 @media(max-width:420px) {
+    .kyohei-img{
+        width: 45%;
+    }
+
     .text-gold {
-        margin-left:160px;
+        margin-left:180px;
         font-size: 20px;
         text-shadow: 1px 2px 0 #545A63;
     }
@@ -313,6 +333,11 @@
 }
 
 @media(max-width:360px) {
+    .kyohei-img{
+        width: 48%;
+        padding-top: 10%;
+    }
+
     .number {
         font-size: 20px;
     }
@@ -327,6 +352,14 @@
 }
 
 @media(max-width:320px) {
+    .kyohei-img{
+        padding-top: 13%;
+    }
+    
+    .text-gold{
+        margin-left: 150px;
+    }
+
     .text-blue {
         font-size: 10px;
     }
